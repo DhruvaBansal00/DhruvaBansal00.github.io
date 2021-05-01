@@ -9,9 +9,8 @@ function Content() {
     <main>
       <AboutMe />
       <Experience />
-      {// <Skills />
-      
-      // <Articles />
+      <Skills />
+      {// <Articles />
   	}
     </main>
   );

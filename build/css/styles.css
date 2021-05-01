@@ -13,12 +13,13 @@ html {
     .has-bg-image {
         background-image: url('../images/cover5.webp'), url('../images/cover5.jpg');
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: initial;
         background-size: cover;
         background-position: center;
+        z-index: -1;
     }
 }
-@media (min-width: 601px) {
+@media (min-width: 600px) {
     .has-bg-image {
         background-image: url('../images/cover10.webp'), url('../images/cover10.jpg');
         background-repeat: no-repeat;

@@ -38,7 +38,7 @@
       "position": "Incoming MS CS Student",
       "website": "https://www.stanford.edu/",
       "startDate": "2021-09-06",
-      "endDate": "2021-09-10",
+      "endDate": "None",
       "image": "images/timeline/stanford.png",
       "summary": "Incoming MS CS student at Stanford University, concentrating in Artificial Intelligence.",
       "highlights": []
@@ -48,7 +48,7 @@
       "position": "Software Engineering Intern",
       "website": "https://www.linkedin.com/company/kiva-systems/",
       "startDate": "2021-05-23",
-      "endDate": "",
+      "endDate": "AUGUST 2021",
       "image": "images/timeline/amazon.png",
       "summary": "Incoming Software Engineering Intern. Deferred from Summer 2020 due to COVID-19.",
       "highlights": []
@@ -58,7 +58,7 @@
       "position": "Graduation!",
       "website": "https://www.gatech.edu/",
       "startDate": "2021-05-06",
-      "endDate": "2021-05-07",
+      "endDate": "None",
       "image": "images/timeline/gt.png",
       "summary": "Graduated from Georgia Tech with a BS in CS with threads in Intelligence and Theory.",
       "highlights": []
@@ -69,8 +69,8 @@
       "website": "http://rail.gatech.edu/",
       "image": "images/timeline/gt.png",
       "startDate": "2020-01-02",
-      "endDate": "2021-05-01",
-      "summary": "Collaborated with Prof. Sonia Chernova and Dr. Harish Ravichandar on various projects revolving around robot trajectory optimization and knowledge graphs inference.",
+      "endDate": "MAY 2021",
+      "summary": "Collaborated with Prof. Sonia Chernova and Dr. Harish Ravichandar on topics in robot trajectory optimization and knowledge graphs inference.",
       "highlights": []
     },
     {
@@ -78,9 +78,9 @@
       "position": "Software Engineering Intern",
       "website": "https://www.honeywell.com/",
       "startDate": "2019-05-07",
-      "endDate": "2018-07-28",
+      "endDate": "JULY 2019",
       "image": "images/timeline/honeywell.png",
-      "summary": "Entered Georgia Tech as a undergraduate student majoring in CS.",
+      "summary": "Developed upon Honeywell Connected Plant's backend API to support analysis and visualization of warehouses.",
       "highlights": []
     },
     {
@@ -89,7 +89,7 @@
       "website": "https://gvu.gatech.edu/research/labs/contextual-computing-group",
       "image": "images/timeline/gvu.jpeg",
       "startDate": "2018-09-02",
-      "endDate": "2021-05-01",
+      "endDate": "MAY 2021",
       "summary": "Collaborated with Prof. Thad Starner on the application of American Sign Language towards creating a game for deaf children.",
       "highlights": []
     },
@@ -98,7 +98,7 @@
       "position": "Incoming BS CS Student",
       "website": "https://www.gatech.edu/",
       "startDate": "2018-08-06",
-      "endDate": "2018-08-10",
+      "endDate": "None",
       "image": "images/timeline/gt.png",
       "summary": "Entered Georgia Tech as a undergraduate student majoring in CS.",
       "highlights": []

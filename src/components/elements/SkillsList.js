@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from '@material-ui/core';
 import ProgressBar from "./ProgressBar";
 
 function SkillsList(props) {

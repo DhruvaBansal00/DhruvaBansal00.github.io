@@ -1,5 +1,13 @@
 import React from "react";
 
+function dates(props) {
+  if (props.endDate == 'None') {
+    return <p className="heading">{props.date}</p>;
+  } else {
+    return <p className="heading">{props.date}-{props.endDate}</p>;
+  }
+}
+
 function TimelineItem(props) {
   return (
     <div className="timeline-item is-success">
@@ -9,7 +17,7 @@ function TimelineItem(props) {
       </a>
       </div>
       <div className="timeline-content">
-        <p className="heading">{props.date}</p>
+        {dates(props)}
         <h1 className="title is-4">{props.company}</h1>
         <p className="subtitle is-6">{props.position}</p>
         <p style={{ maxWidth: "25em" }}>{props.summary}</p>
