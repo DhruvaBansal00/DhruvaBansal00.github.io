@@ -39,9 +39,10 @@ class NavBar extends React.Component {
           >
             <div className="navbar-end" onClick={this.handleMenuClick}>
               <MenuItem text="About Me" href="#aboutMe" />
-              <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Experience" href="#experience" />
-              <MenuItem text="Articles" href="#articles" />
+            {  // <MenuItem text="Skills" href="#skills" />
+              // <MenuItem text="Experience" href="#experience" />
+              // <MenuItem text="Articles" href="#articles" />
+            }
             </div>
           </div>
         </div>

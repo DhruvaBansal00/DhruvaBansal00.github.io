@@ -8,9 +8,10 @@ function Content() {
   return (
     <main>
       <AboutMe />
-      <Skills />
-      <Experience />
-      <Articles />
+      {// <Skills />
+      // <Experience />
+      // <Articles />
+  	}
     </main>
   );
 }

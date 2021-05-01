@@ -1,34 +1,34 @@
 {
   "basics": {
-    "name": "José Coelho",
+    "name": "Dhruva Bansal",
     "label": "Software Engineer",
-    "picture": "images/jcoelho.webp",
-    "x_pictureFallback": "images/jcoelho.jpg",
+    "picture": "images/pfp.webp",
+    "x_pictureFallback": "images/pfp.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 5 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "I am a Computer Science student passionate about building intelligent products. Currently, I am an MS CS student at Stanford, specializing in Artificial Intelligence. In the past, I have interned at Amazon Robotics and Honeywell while also conducting research with professors at Georgia Tech.",
     "location": {
-      "country": "Portugal",
-      "countryCode": "PT",
-      "region": "Porto"
+      "country": "United States",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
-        "network": "DEV Community",
-        "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
-        "x_icon":"fab fa-2x fa-dev"
-      },
-      {
         "network": "LinkedIn",
-        "username": "josecoelho93",
-        "url": "https://www.linkedin.com/in/josecoelho93",
+        "username": "dhruvabansal2k",
+        "url": "https://www.linkedin.com/in/dhruvabansal2k",
         "x_icon": "fab fa-2x fa-linkedin"
       },
       {
         "network": "GitHub",
-        "username": "jcoelho93",
-        "url": "https://github.com/jcoelho93",
+        "username": "DhruvaBansal00",
+        "url": "https://github.com/DhruvaBansal00",
         "x_icon": "fab fa-2x fa-github"
+      },
+      {
+        "network": "Devpost",
+        "username": "DhruvaBansal00",
+        "url": "https://devpost.com/DhruvaBansal00",
+        "x_icon":"fab fa-2x fa-dev"
       }
     ]
   },
@@ -187,19 +187,19 @@
   ],
   "interests": [
     {
-      "name": "Travel bug",
-      "x_icon": "fa-globe-africa"
+      "name": "Table tennis",
+      "x_icon": "fa-table-tennis"
     },
     {
-      "name": "Dog lover",
-      "x_icon": "fa-dog"
+      "name": "Travel bug",
+      "x_icon": "fa-globe-africa"
     },
     {
       "name": "Foodie",
       "x_icon": "fa-utensils"
     },
     {
-      "name": "Live in the now",
+      "name": "Living in the present",
       "x_icon": "fa-brain"
     }
   ]
