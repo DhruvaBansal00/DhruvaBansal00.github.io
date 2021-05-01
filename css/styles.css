@@ -11,9 +11,9 @@ html {
 
 @media (max-width: 600px) {
     .has-bg-image {
-        background-image: url('../images/cover5.jpg');
+        background-image: url('../images/cover5.webp'), url('../images/cover5.jpg');
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /*background-attachment: fixed;*/
         background-size: cover;
         background-position: center;
         z-index: -1;
