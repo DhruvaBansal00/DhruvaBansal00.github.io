@@ -23,7 +23,7 @@ function AboutMe() {
           {Resume.basics.summary}
         </p>
         <div className="container interests">
-          <div className="field is-grouped is-grouped-multiline has-text-centered">
+          <div className="field is-grouped is-grouped-multiline is-grouped-centered has-text-centered">
             {Resume.interests.map((value, index) => {
               return (
                 <Badge key={index} text={value.name} faIcon={value.x_icon} />

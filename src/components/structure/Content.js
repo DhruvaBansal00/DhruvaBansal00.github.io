@@ -8,8 +8,9 @@ function Content() {
   return (
     <main>
       <AboutMe />
+      <Experience />
       {// <Skills />
-      // <Experience />
+      
       // <Articles />
   	}
     </main>
