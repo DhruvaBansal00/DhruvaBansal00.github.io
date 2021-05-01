@@ -14,6 +14,15 @@ html {
     background-attachment: fixed;
     background-size: cover;
 }
+
+@media (max-width: 768px) {
+  .has-bg-image {
+    background-image: url('../images/cover5.webp'), url('../images/cover10.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+}
 .bulma-image {
     width: 200px;
 }
