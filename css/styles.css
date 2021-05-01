@@ -8,13 +8,26 @@ html {
 .skill-list > li{
     margin: 30px 0 0 0;
 }
-.has-bg-image {
-    background-image: url('../images/cover10.webp'), url('../images/cover10.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+
+@media (max-width: 600px) {
+    .has-bg-image {
+        background-image: url('../images/cover5.webp'), url('../images/cover5.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
 }
+@media (min-width: 601px) {
+    .has-bg-image {
+        background-image: url('../images/cover10.webp'), url('../images/cover10.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .bulma-image {
     width: 200px;
 }
