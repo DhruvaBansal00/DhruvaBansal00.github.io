@@ -121,74 +121,109 @@
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "Python",
+      "icon": "images/skills/python.png",
+      "use": "",
+      "size": 2,
+      "level": "Advanced"
+    },
+    {
+      "name": "PyTorch",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "size": 2,
+      "icon": "images/skills/pytorch.png",
+      "use": ""
     },
     {
-      "name": "Continuous Integration",
+      "name": "Java",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "size": 2,
+      "icon": "images/skills/java.webp",
+      "use": ""
     },
     {
-      "name": "Scripting",
+      "name": "C++",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "size": 2,
+      "icon": "images/skills/c++.png",
+      "use": ""
     },
     {
-      "name": "Containers",
+      "name": "OpenCV",
       "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Cloud",
-      "level": "Basic",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Troubleshooting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Infrastructure as Code",
-      "level": "Intermediate",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Object Oriented Programming",
-      "level": "Advanced",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "Design Patterns",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "size": 2,
+      "icon": "images/skills/opencv.png",
+      "use": ""
     },
     {
       "name": "Git",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "REST API",
       "level": "Advanced",
-      "keywords": ["Software Developer"]
+      "size": 2,
+      "icon": "images/skills/git.png",
+      "use": ""
     },
     {
-      "name": "Unit Testing",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "name": "Robot Operating System",
+      "level": "Advanced",
+      "size": 3,
+      "icon": "images/skills/ros.png",
+      "use": ""
     },
     {
-      "name": "MySQL",
+      "name": "C",
+      "level": "Advanced",
+      "size": 2,
+      "icon": "images/skills/c.webp",
+      "use": ""
+    },
+    {
+      "name": "TensorFlow",
+      "level": "Advanced",
+      "size": 3,
+      "icon": "images/skills/tensorflow.png",
+      "use": ""
+    },
+    {
+      "name": "Node.js",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "size": 2,
+      "icon": "images/skills/nodejs.png",
+      "use": ""
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "size": 3,
+      "icon": "images/skills/javascript.png",
+      "use": ""
+    },
+    {
+      "name": "Matlab",
+      "level": "Intermediate",
+      "size": 2,
+      "icon": "images/skills/matlab.png",
+      "use": ""
+    },
+    {
+      "name": "Bash",
+      "level": "Intermediate",
+      "size": 2,
+      "icon": "images/skills/bash.jpg",
+      "use": ""
     },
     {
       "name": "MongoDB",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "size": 2,
+      "icon": "images/skills/mongodb.jpeg",
+      "use": ""
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "size": 2,
+      "icon": "images/skills/docker.png",
+      "use": ""
     }
   ],
   "languages": [

@@ -1,47 +1,40 @@
 import React from "react";
-import SkillsList from "../elements/SkillsList";
 import Resume from "../../resume.json";
+import SkillItem from '../elements/SkillsList';
+import { makeStyles } from '@material-ui/core/styles'
+import {
+  Grid,
+} from '@material-ui/core/'
+
+
+const useStyles = makeStyles(theme => ({
+  root: {
+      flexGrow: 1,
+      padding: theme.spacing(2)
+  }
+}))
 
 function Skills() {
+  const classes = useStyles()
   return (
     <section className="section" id="skills">
       <div className="container">
         <h1 className="title">Skills</h1>
-        <div className="columns">
-          <div className="column is-6">
-            <div className="has-text-centered">
-              <span className="icon has-text-link">
-                <i className="fas fa-3x fa-cogs"></i>
-              </span>
-              <h2 className="title is-5">DevOps</h2>
-            </div>
-            <SkillsList
-              skills={Resume.skills
-                .filter(skill => skill.keywords.includes("DevOps"))
-                .reduce((obj, item) => {
-                  obj[item.name] = item.level;
-                  return obj;
-                }, {})}
-            />
-          </div>
-          <div className="column is-6">
-            <div className="has-text-centered">
-              <span className="icon has-text-link">
-                <i className="fas fa-3x fa-laptop-code"></i>
-              </span>
-              <h2 className="title is-5">Software Development</h2>
-            </div>
-            <SkillsList
-              skills={Resume.skills
-                .filter(skill => skill.keywords.includes("Software Developer"))
-                .reduce((obj, item) => {
-                  obj[item.name] = item.level;
-                  return obj;
-                }, {})}
-            />
-          </div>
+        <div className={classes.root}>
+            <Grid
+                container
+                spacing={3}
+                // direction="row"
+                justify="center"
+                // alignItems="flex-start"
+                //={12} sm={6} md={3}
+            >
+                {Resume.skills.map(elem => (
+                  <SkillItem index={Resume.skills.indexOf(elem)} name={elem.name} icon={elem.icon} use={elem.use} size={elem.size}/>
+                ))}
+            </Grid>
         </div>
-      </div>
+        </div>
     </section>
   );
 }

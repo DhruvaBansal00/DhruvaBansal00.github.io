@@ -44,3 +44,7 @@ html {
 .skill-percentage {
 	float: right;
 }
+
+.skill-item {
+    margin-bottom: 100px;
+}
