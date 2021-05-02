@@ -52,7 +52,7 @@ function SkillItem(props) {
   };
 
   return (
-    <Grid item xs={props.size*3} md={props.size} key={props.index}>
+    <Grid item xs={6} md={props.size} key={props.index}>
       <Card className={classes.root}>
         <CardHeader
           onClick={handleExpandClick}

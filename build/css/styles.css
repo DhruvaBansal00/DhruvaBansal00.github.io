@@ -11,12 +11,13 @@ html {
 
 @media (max-width: 600px) {
     .has-bg-image {
-        background-image: url('../images/cover5.webp'), url('../images/cover5.jpg');
+        background-image: url('../images/cover10.webp'), url('../images/cover10.jpg');
         background-repeat: no-repeat;
         background-attachment: initial;
         background-size: cover;
         background-position: center;
         z-index: -1;
+        /* opacity: 0.9; */
     }
 }
 @media (min-width: 600px) {
@@ -26,6 +27,7 @@ html {
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
+        /* opacity: 0.75; */
     }
 }
 
@@ -43,4 +45,8 @@ html {
 }
 .skill-percentage {
 	float: right;
+}
+
+.skill-item {
+    margin-bottom: 100px;
 }
