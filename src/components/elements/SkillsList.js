@@ -61,7 +61,7 @@ function SkillItem(props) {
           
           avatar={
             <figure class="image is-48x48">
-              <img class="is-rounded" src={props.icon}/>
+              <img class="is-square" src={props.icon}/>
             </figure>
           }
           title={props.name}
