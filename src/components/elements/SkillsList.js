@@ -64,7 +64,9 @@ function SkillItem(props) {
               <img class="is-square" src={props.icon}/>
             </figure>
           }
-          title={props.name}
+          title={
+            <p style={{wordBreak: "break-word"}}>{props.name}</p>
+          }
         />
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
