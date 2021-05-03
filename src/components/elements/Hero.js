@@ -1,10 +1,15 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Resume from "../../resume.json";
+import Particles from 'react-particles-js';
+import particlesConfig from './particlesConfig';
 
 function Hero() {
   return (
-    <section className="hero is-dark is-fullheight has-bg-image">
+    <section className="hero is-dark is-fullheight" style={{ position: 'relative', overflow: "hidden", backgroundImage: "linear-gradient(to right, #e66465, #9198e5)" }}>
+      <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfig} />
+      </div>
       <div className="hero-head">
         <NavBar />
       </div>
