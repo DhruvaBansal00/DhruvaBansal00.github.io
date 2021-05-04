@@ -22,7 +22,7 @@ function Hero() {
           </h2>
         </div>
       </div>
-      <div className="hero-foot" style={{ paddingBottom: "20px" }}>
+      <div className="hero-foot" style={{ paddingBottom: "20px", zIndex: "10" }}>
         <div className="columns is-mobile">
           <div className="column"></div>
           {Resume.basics.profiles.map((value, index) => {
