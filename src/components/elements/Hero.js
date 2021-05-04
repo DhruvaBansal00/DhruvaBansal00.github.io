@@ -3,8 +3,8 @@ import NavBar from "./NavBar";
 import Resume from "../../resume.json";
 import Particles from 'react-particles-js';
 import particlesConfig from './particlesConfig';
-import AboutMe from "../sections/AboutMe"
 
+var ReactRotatingText = require('react-rotating-text');
 function Hero() {
   return (
     <section className="hero is-dark is-fullheight" style={{ position: 'relative', overflow: "hidden", backgroundImage: "linear-gradient(to right, #e66465, #9198e5)" }}>
@@ -17,9 +17,11 @@ function Hero() {
       <div className="hero-body">
         <div className="container">
           <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-          <h1 className="title">{Resume.basics.label}</h1>
+          <h1 className="title" style={{ color: "yellow" }}>
+            <ReactRotatingText typingInterval="60" items={Resume.basics.label} />
+          </h1>
           <h2 className="subtitle">
-            based in {Resume.basics.location.region}, {Resume.basics.location.country}
+            based in {Resume.basics.location.region}{Resume.basics.location.country}
           </h2>
         </div>
       </div>

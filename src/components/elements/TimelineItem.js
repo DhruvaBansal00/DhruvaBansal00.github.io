@@ -32,6 +32,8 @@ function TimelineItem(props) {
         </div>
         <TimelineContent
           summary={props.summary}
+          summary1={props.summary1}
+          summary2={props.summary2}
         />
       </div>
     </div>

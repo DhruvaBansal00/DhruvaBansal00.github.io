@@ -39,6 +39,8 @@ function Timeline() {
                 })}
                 company={item.company}
                 summary={item.summary}
+                summary1={item.summary1}
+                summary2={item.summary2}
                 position={item.position}
                 website={item.website}
                 endDate={item.endDate}

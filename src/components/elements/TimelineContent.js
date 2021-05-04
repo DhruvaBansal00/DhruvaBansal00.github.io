@@ -36,6 +36,7 @@ function TimelineContent(props) {
     <p onClick={handleExpandClick}
         aria-expanded={expanded}
         aria-label="show more">{props.summary}</p>
+    {props.summary1.length > 0 &&
     <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -45,9 +46,10 @@ function TimelineContent(props) {
           aria-label="show more"
         >
         <ExpandMoreIcon />
-    </IconButton>
+    </IconButton>}
     <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <p>{props.summary}</p>
+        {props.summary1.length > 0 && <p>{props.summary1}</p>}
+        {props.summary2.length > 0 && <p>{props.summary2}</p>}
     </Collapse>
     </Card>
   );

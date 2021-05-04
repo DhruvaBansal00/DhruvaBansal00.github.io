@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Dhruva Bansal",
-    "label": "Software Engineer",
+    "label": ["Computer Scientist", "Machine Learning Researcher", "Tech Enthusiast"],
     "picture": "images/pfp.webp",
     "x_pictureFallback": "images/pfp.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "I am a Computer Science student passionate about building intelligent products. Currently, I am an MS CS student at Stanford, specializing in Artificial Intelligence. In the past, I have interned at Amazon Robotics and Honeywell as a software engineer. As an undergraduate student at Georgia Tech, I also conducted research on various topics in natural language and robotics.",
+    "summary": "I am a Computer Science student passionate about building intelligent products. Currently, I am interning at Amazon Robotics as a Software Development Engineer. I am also an incoming MS CS student at Stanford where I'll specialize in Artificial Intelligence. In the past, I have intered at Honeywell as a Software Engineer and conducted reserach with professors as an undergraduate student at Georgia Tech.",
     "location": {
       "country": "United States",
       "countryCode": "US",
-      "region": "California"
+      "region": ""
     },
     "profiles": [
       {
@@ -41,6 +41,8 @@
       "endDate": "None",
       "image": "images/timeline/stanford.png",
       "summary": "Incoming MS CS student at Stanford University, concentrating in Artificial Intelligence.",
+      "summary1": "",
+      "summary2": "",
       "highlights": []
     },
     {
@@ -51,6 +53,8 @@
       "endDate": "AUGUST 2021",
       "image": "images/timeline/amazon.png",
       "summary": "Incoming Software Engineering Intern. Deferred from Summer 2020 due to COVID-19.",
+      "summary1": "",
+      "summary2": "",
       "highlights": []
     },
     {
@@ -61,6 +65,8 @@
       "endDate": "None",
       "image": "images/timeline/gt.png",
       "summary": "Graduated from Georgia Tech with a BS in CS with threads in Intelligence and Theory.",
+      "summary1": "",
+      "summary2": "",
       "highlights": []
     },
     {
@@ -71,8 +77,8 @@
       "startDate": "2020-01-02",
       "endDate": "MAY 2021",
       "summary": "I collaborated with Prof. Sonia Chernova and Dr. Harish Ravichandar on topics in robot trajectory optimization and knowledge graphs inference.",
-      "summary2": "We leveraged deep learning and path ranking algorithms for building commonsense for robots. I implemented Transformers in PyTorch for commonsense reasoning, which outperformed baselines by 11% on search accuracy this work lead to the submissin of our paper titled \"LINK: Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments\" to RSS'21.",
-      "summary3": "I also worked on building intelligent robots which adapt behavior to stochastic human motion, thereby allowing safe and comfortable collaboration with humans. I developed pipelines to predict human motion using Gaussian Mixture Models for trajectory optimization in Python and ROS. This work lead to the paper titled \"Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization\" which was published at IROS’20",
+      "summary1": "We leveraged deep learning and path ranking algorithms for building commonsense for robots. I implemented Transformers in PyTorch for commonsense reasoning, which outperformed baselines by 11% on search accuracy this work lead to the submissin of our paper titled \"LINK: Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments\" to RSS'21.",
+      "summary2": "I also worked on building intelligent robots which adapt behavior to stochastic human motion, thereby allowing safe and comfortable collaboration with humans. I developed pipelines to predict human motion using Gaussian Mixture Models for trajectory optimization in Python and ROS. This work lead to the paper titled \"Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization\" which was published at IROS’20",
       "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "ROS", "x_icon": "fas fa-robot"}]
     },
     {
@@ -83,6 +89,8 @@
       "endDate": "JULY 2019",
       "image": "images/timeline/honeywell.png",
       "summary": "Developed upon Honeywell Connected Plant's backend API to support analysis and visualization of warehouses.",
+      "summary1": "We leveraged deep learning and path ranking algorithms for building commonsense for robots. I implemented Transformers in PyTorch for commonsense reasoning, which outperformed baselines by 11% on search accuracy this work lead to the submissin of our paper titled \"LINK: Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments\" to RSS'21.",
+      "summary2": "I also worked on building intelligent robots which adapt behavior to stochastic human motion, thereby allowing safe and comfortable collaboration with humans. I developed pipelines to predict human motion using Gaussian Mixture Models for trajectory optimization in Python and ROS. This work lead to the paper titled \"Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization\" which was published at IROS’20",
       "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "Tensorflow", "x_icon": "fas fa-code"}, {"name": "JavaScript", "x_icon": "fab fa-js-square"}, {"name": "Node.js", "x_icon": "fab fa-node-js"}, {"name": "MongoDB", "x_icon": "fas fa-database"}]
     },
     {
@@ -93,6 +101,8 @@
       "startDate": "2018-09-02",
       "endDate": "MAY 2021",
       "summary": "Collaborated with Prof. Thad Starner on the application of American Sign Language towards creating a game for deaf children.",
+      "summary1": "We leveraged deep learning and path ranking algorithms for building commonsense for robots. I implemented Transformers in PyTorch for commonsense reasoning, which outperformed baselines by 11% on search accuracy this work lead to the submissin of our paper titled \"LINK: Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments\" to RSS'21.",
+      "summary2": "I also worked on building intelligent robots which adapt behavior to stochastic human motion, thereby allowing safe and comfortable collaboration with humans. I developed pipelines to predict human motion using Gaussian Mixture Models for trajectory optimization in Python and ROS. This work lead to the paper titled \"Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization\" which was published at IROS’20",
       "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "Django", "x_icon": "fas fa-server"}, {"name": "Unity", "x_icon": "fab fa-unity"}]
     },
     {
@@ -103,22 +113,9 @@
       "endDate": "None",
       "image": "images/timeline/gt.png",
       "summary": "Entered Georgia Tech as a undergraduate student majoring in CS.",
+      "summary1": "",
+      "summary2": "",
       "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Madeira",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
-      "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
-      ]
     }
   ],
   "skills": [
