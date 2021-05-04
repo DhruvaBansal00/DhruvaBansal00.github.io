@@ -45,7 +45,6 @@ function Hero() {
           <div className="column"></div>
         </div>
       </div>
-      <AboutMe />
     </section>
   );
 }
