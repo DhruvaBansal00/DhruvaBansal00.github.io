@@ -49,6 +49,7 @@ function TimelineContent(props) {
     </IconButton>}
     <Collapse in={expanded} timeout="auto" unmountOnExit>
         {props.summary1.length > 0 && <p>{props.summary1}</p>}
+        {props.summary2.length > 0 && <br></br>}
         {props.summary2.length > 0 && <p>{props.summary2}</p>}
     </Collapse>
     </Card>
