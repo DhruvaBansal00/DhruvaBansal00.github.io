@@ -1,7 +1,9 @@
 import React from "react";
+import Badge from "../elements/Badge";
+import TimelineContent from "./TimelineContent";
 
 function dates(props) {
-  if (props.endDate == 'None') {
+  if (props.endDate === 'None') {
     return <p className="heading">{props.date}</p>;
   } else {
     return <p className="heading">{props.date}-{props.endDate}</p>;
@@ -17,10 +19,20 @@ function TimelineItem(props) {
       </a>
       </div>
       <div className="timeline-content">
+        
         {dates(props)}
         <h1 className="title is-4">{props.company}</h1>
         <p className="subtitle is-6">{props.position}</p>
-        <p style={{ maxWidth: "25em" }}>{props.summary}</p>
+        <div className="field is-grouped is-grouped-multiline has-text-centered">
+          {props.badge.map((value, index) => {
+            return (
+              <Badge key={index} text={value.name} faIcon={value.x_icon} />
+            )
+          })}
+        </div>
+        <TimelineContent
+          summary={props.summary}
+        />
       </div>
     </div>
   );

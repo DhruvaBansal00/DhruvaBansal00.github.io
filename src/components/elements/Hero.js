@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Resume from "../../resume.json";
 import Particles from 'react-particles-js';
 import particlesConfig from './particlesConfig';
+import AboutMe from "../sections/AboutMe"
 
 function Hero() {
   return (
@@ -44,6 +45,7 @@ function Hero() {
           <div className="column"></div>
         </div>
       </div>
+      <AboutMe />
     </section>
   );
 }

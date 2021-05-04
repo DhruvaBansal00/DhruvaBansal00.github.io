@@ -5,7 +5,6 @@ import Resume from "../../resume.json";
 
 function Timeline() {
   let active = window.screen.width < 768;
-  console.log(active);
   return (
     <div className={`timeline ${active ? "is-left" : "is-centered"}`}>
     <header className="timeline-header">
@@ -43,6 +42,7 @@ function Timeline() {
                 position={item.position}
                 website={item.website}
                 endDate={item.endDate}
+                badge={item.highlights}
               />
             );
           })

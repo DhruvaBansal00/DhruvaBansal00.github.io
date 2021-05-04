@@ -70,8 +70,10 @@
       "image": "images/timeline/gt.png",
       "startDate": "2020-01-02",
       "endDate": "MAY 2021",
-      "summary": "Collaborated with Prof. Sonia Chernova and Dr. Harish Ravichandar on topics in robot trajectory optimization and knowledge graphs inference.",
-      "highlights": []
+      "summary": "I collaborated with Prof. Sonia Chernova and Dr. Harish Ravichandar on topics in robot trajectory optimization and knowledge graphs inference.",
+      "summary2": "We leveraged deep learning and path ranking algorithms for building commonsense for robots. I implemented Transformers in PyTorch for commonsense reasoning, which outperformed baselines by 11% on search accuracy this work lead to the submissin of our paper titled \"LINK: Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments\" to RSS'21.",
+      "summary3": "I also worked on building intelligent robots which adapt behavior to stochastic human motion, thereby allowing safe and comfortable collaboration with humans. I developed pipelines to predict human motion using Gaussian Mixture Models for trajectory optimization in Python and ROS. This work lead to the paper titled \"Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization\" which was published at IROS’20",
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "ROS", "x_icon": "fas fa-robot"}]
     },
     {
       "company": "Honeywell",
@@ -81,7 +83,7 @@
       "endDate": "JULY 2019",
       "image": "images/timeline/honeywell.png",
       "summary": "Developed upon Honeywell Connected Plant's backend API to support analysis and visualization of warehouses.",
-      "highlights": []
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "Tensorflow", "x_icon": "fas fa-code"}, {"name": "JavaScript", "x_icon": "fab fa-js-square"}, {"name": "Node.js", "x_icon": "fab fa-node-js"}, {"name": "MongoDB", "x_icon": "fas fa-database"}]
     },
     {
       "company": "Georgia Tech CCG",
@@ -91,7 +93,7 @@
       "startDate": "2018-09-02",
       "endDate": "MAY 2021",
       "summary": "Collaborated with Prof. Thad Starner on the application of American Sign Language towards creating a game for deaf children.",
-      "highlights": []
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "Django", "x_icon": "fas fa-server"}, {"name": "Unity", "x_icon": "fab fa-unity"}]
     },
     {
       "company": "Georgia Tech",
