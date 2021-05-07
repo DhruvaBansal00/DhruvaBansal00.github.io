@@ -282,7 +282,7 @@
     {
       "name": "SAO",
       "html_url": "https://devpost.com/software/study-alexa-online-sao",
-      "description": "Study Alexa Online (SAO) makes collaborative studying easier by turning the Alexa into a tool to connect to the collectively knowledge of other peers. SAO is an Alexa skill that connects users with to a Piazza class.",
+      "description": "Study Alexa Online (SAO) makes collaborative studying easier by turning the Alexa into a tool to connect to the collectively knowledge of other peers. Students connect to study groups via the SAO Alexa skill.",
       "language": "Python",
       "language2": "JavaScript"
     },
