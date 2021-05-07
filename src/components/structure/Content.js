@@ -11,7 +11,7 @@ function Content() {
       <AboutMe />
       <Experience />
       <Skills />
-      {/* <GitHub /> */}
+      <GitHub />
       {// <Articles />
   	}
     </main>
