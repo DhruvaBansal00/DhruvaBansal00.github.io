@@ -25,7 +25,7 @@ function TimelineItem(props) {
         <div className={`field is-grouped ${props.expIndex % 2 == 0 && window.screen.width > 768 ? "is-grouped-right" : "is-grouped-left"} is-grouped-multiline`}>
           {props.badge.map((value, index) => {
             return (
-              <Badge key={index} text={value.name} faIcon={value.x_icon} leftTimeline={props.expIndex % 2 == 0}/>
+              <Badge key={index} text={value.name} faIcon={value.x_icon} leftTimeline={props.expIndex % 2 == 0 && window.screen.width > 768}/>
             )
           })}
         </div>
