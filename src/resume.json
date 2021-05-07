@@ -252,5 +252,53 @@
       "name": "Ukulele",
       "x_icon": "fas fa-guitar"
     }
+  ],
+  "projects": [
+    {
+      "name": "CopyCat",
+      "html_url": "https://github.com/DhruvaBansal00/SBHMM-HTK",
+      "description": "A game which leverages Sign Language recognition to help deaf children acquire short term memory skills. Uses pose estimation to extract landmarks and models like HMMs and Transformers for recognizing video sequences.",
+      "language": "Python",
+      "language2": "C++"
+    },
+    {
+      "name": "Translation",
+      "html_url": "https://github.com/DhruvaBansal00/ConfidentMT",
+      "description": " In collaboration with Facebook AI, built classifiers for deciding whether translations produced by Transformers are sufficiently good. Uses language models in conjunction with manual feature engineering to train logistic classifiers for the task.",
+      "language": "Python"
+    },
+    {
+      "name": "LfD",
+      "html_url": "https://github.com/DhruvaBansal00/DMP-Imperfect-Demonstrations",
+      "description": "Learning agent (Ant-V2) behavior from demonstration using inverse reinforcement learning. We first adapt MixText to identification of trajectories and suboptimal and then integrate it with 2IWIL for learning from demonstrations. ",
+      "language": "Python"
+    },
+    {
+      "name": "SoundSight",
+      "html_url": "https://devpost.com/software/soundsight-jfcdpo",
+      "description": "SoundSight uses computer vision to collect spatial data in the user's immediate vicinity and converts it into 3 dimensional sound allowing complete perception of the environment without the visual senses.",
+      "language": "C#"
+    },
+    {
+      "name": "SAO",
+      "html_url": "https://devpost.com/software/study-alexa-online-sao",
+      "description": "Study Alexa Online (SAO) makes collaborative studying easier by turning the Alexa into a tool to connect to the collectively knowledge of other peers. SAO is an Alexa skill that connects users with to a Piazza class.",
+      "language": "Python",
+      "language2": "JavaScript"
+    },
+    {
+      "name": "Golden Gate",
+      "html_url": "https://devpost.com/software/golden-gate",
+      "description": "Finds news articles covering similar content to provide all perspectives on a topic. We analyze author attitudes using sentiment analysis and find other articles with differing attitudes to provide a comprehesive view.",
+      "language": "Python",
+      "language2": "JavaScript"
+    },
+    {
+      "name": "Isomathic",
+      "html_url": "https://devpost.com/software/mathdocs",
+      "description": "Isomathic is a tool for converting handwritten math into LaTex documents. The tool uses OpenCV to extract blocks of text, processes them using Mathpix, and then displays the resulting LaTex file on the website.",
+      "language": "JavaScript",
+      "language2": "Python"
+    }
   ]
 }

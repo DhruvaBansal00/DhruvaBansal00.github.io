@@ -1,15 +1,17 @@
 import React from "react";
 import GitHubCalendar from 'react-github-calendar';
-
-function Skills() {
+import ReactTooltip from 'react-tooltip';
+function GitHub() {
   return (
-    <section className="section" id="github">
+    <section className="section" id="projects">
       <div className="container">
-        <h1 className="title">GitHub</h1>
-        <GitHubCalendar username="DhruvaBansal00" blockSize={20}/>
+        <h1 className="title">GitHub Contributions:</h1>
+        <GitHubCalendar username="DhruvaBansal00" blockSize={20} fontSize={20}>
+          <ReactTooltip delayShow={50} html textColor="black" backgroundColor="white"/>
+        </GitHubCalendar>
         </div>
     </section>
   );
 }
 
-export default Skills;
+export default GitHub;

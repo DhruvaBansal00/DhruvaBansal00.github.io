@@ -10,7 +10,8 @@
     "react-github-calendar": "^2.0.2",
     "react-particles-js": "^3.4.1",
     "react-rotating-text": "^1.4.1",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^3.4.0",
+    "react-tooltip": "^4.2.19"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -17,7 +17,7 @@ function Hero() {
       <div className="hero-body">
         <div className="container">
           <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-          <h1 className="title" style={{ color: "yellow" }}>
+          <h1 className="title" style={{ color: "#ffb469" }}>
             <ReactRotatingText typingInterval="60" items={Resume.basics.label} />
           </h1>
           <h2 className="subtitle">
