@@ -4,7 +4,7 @@ import ReactTooltip from 'react-tooltip';
 function GitHub() {
   return (
     <section className="section" id="github">
-      <div className="container is-centered">
+      <div className="container is-centered github">
         <h1 className="title">GitHub Contributions:</h1>
         <GitHubCalendar username="DhruvaBansal00" blockSize={24} fontSize={20}>
           <ReactTooltip delayShow={50} html textColor="black" backgroundColor="white"/>
