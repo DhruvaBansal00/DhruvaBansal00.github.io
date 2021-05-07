@@ -9,7 +9,7 @@ import {
   Typography,
   Grid,
 } from "@material-ui/core";
-import { purple } from "@material-ui/core/colors";
+import { green, blue, purple } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     color: theme.palette.getContrastText(purple[500]),
-    backgroundColor: purple[500],
+    backgroundColor: blue[500],
   },
   dot: {
     height: "12px",
@@ -64,7 +64,7 @@ const RepoCard = ({ repo, language }) => {
         target="_blank"
         rel="noopener noreferrer"
         className={classes.tittle}
-        style={{ textDecoration: "none", color: "#551A8B" }}
+        style={{ textDecoration: "none", color: "black" }}
         >
         <CardHeader
           avatar={
