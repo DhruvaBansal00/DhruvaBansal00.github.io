@@ -43,7 +43,8 @@
       "summary": "Incoming MS CS student at Stanford University, concentrating in Artificial Intelligence.",
       "summary1": "",
       "summary2": "",
-      "highlights": []
+      "highlights": [],
+      "index": 6
     },
     {
       "company": "Amazon Robotics",
@@ -55,7 +56,8 @@
       "summary": "Incoming Software Engineering Intern. Deferred from Summer 2020 due to COVID-19.",
       "summary1": "",
       "summary2": "",
-      "highlights": []
+      "highlights": [],
+      "index": 5
     },
     {
       "company": "Georgia Tech",
@@ -67,7 +69,8 @@
       "summary": "Graduated from Georgia Tech with a BS in CS with threads in Intelligence and Theory.",
       "summary1": "",
       "summary2": "",
-      "highlights": []
+      "highlights": [],
+      "index": 4
     },
     {
       "company": "Georgia Tech RAIL",
@@ -79,7 +82,8 @@
       "summary": "Collaborated with Prof. Sonia Chernova and Dr. Harish Ravichandar on topics in robot trajectory optimization and knowledge graphs inference.",
       "summary1": "We leveraged deep learning and path ranking algorithms for building commonsense for robots. I implemented Transformers in PyTorch for commonsense reasoning, outperforming baselines by 11% on search accuracy. This work lead to the submissin of our paper titled \"LINK: Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments\" to RSS'21.",
       "summary2": "I also worked on building intelligent robots that adapt behavior to stochastic human motion, thereby allowing safe and comfortable collaboration with humans. I developed pipelines to predict human motion using Gaussian Mixture Models for trajectory optimization in Python, C++, and ROS. This work lead to our paper titled \"Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization\" which was published at IROS’20",
-      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "ROS", "x_icon": "fas fa-robot"}]
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "ROS", "x_icon": "fas fa-robot"}],
+      "index": 3
     },
     {
       "company": "Honeywell",
@@ -91,7 +95,8 @@
       "summary": "Developed upon Honeywell Connected Plant's backend API to support analysis and visualization of warehouses.",
       "summary1": "I built a web app in Python using TensorFlow, OpenCV and Scikit-learn to analyze and extract relational data from scanned images.",
       "summary2": "I also developed upon Honeywell Connected Plant API using Node.js and MongoDB to provide granular insight into warehouse equipment and usage. I wrote production ready code for handling upwards of 3 million requests every month.",
-      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "Tensorflow", "x_icon": "fas fa-code"}, {"name": "JavaScript", "x_icon": "fab fa-js-square"}, {"name": "Node.js", "x_icon": "fab fa-node-js"}, {"name": "MongoDB", "x_icon": "fas fa-database"}]
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "Tensorflow", "x_icon": "fas fa-code"}, {"name": "Node.js", "x_icon": "fab fa-node-js"}, {"name": "JavaScript", "x_icon": "fab fa-js-square"}, {"name": "MongoDB", "x_icon": "fas fa-database"}],
+      "index": 2
     },
     {
       "company": "Georgia Tech CCG",
@@ -103,7 +108,8 @@
       "summary": "Collaborated with Prof. Thad Starner on the application of American Sign Language towards creating a game for deaf children.",
       "summary1": "I built a sign verification system using pose estimation libraries such as MediaPipe and combined them with pattern recognition models such as Hidden Markov Models and Transformers implemented using Python and PyTorch.",
       "summary2": "We demonstrated that HMMs outperform Transformers for American Sign Language recognition by on average 17% in real-world scenarios. Our results have been published in the paper titled \"CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills\" at CHI'21",
-      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "Django", "x_icon": "fas fa-server"}, {"name": "Unity", "x_icon": "fab fa-unity"}]
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "C++", "x_icon": "fas fa-code"}, {"name": "Django", "x_icon": "fas fa-server"}, {"name": "Unity", "x_icon": "fab fa-unity"}],
+      "index": 1
     },
     {
       "company": "Georgia Tech",
@@ -115,7 +121,8 @@
       "summary": "Entered Georgia Tech as a undergraduate student majoring in CS.",
       "summary1": "",
       "summary2": "",
-      "highlights": []
+      "highlights": [],
+      "index": 0
     }
   ],
   "skills": [

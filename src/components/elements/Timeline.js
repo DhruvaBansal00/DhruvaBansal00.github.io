@@ -45,6 +45,7 @@ function Timeline() {
                 website={item.website}
                 endDate={item.endDate}
                 badge={item.highlights}
+                expIndex={item.index}
               />
             );
           })

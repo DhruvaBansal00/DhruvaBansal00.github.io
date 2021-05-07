@@ -47,7 +47,7 @@ function SkillItem(props) {
   };
 
   return (
-    <Grid item xs={6} md={props.size} key={props.index}>
+    <Grid item key={props.index}>
       <Card className={classes.root}>
         <CardHeader
           onClick={handleExpandClick}
@@ -60,7 +60,7 @@ function SkillItem(props) {
             </figure>
           }
           title={
-            <p style={{wordBreak: "break-word"}}>{props.name}</p>
+            <p>{props.name}</p>
           }
         />
         <Collapse in={expanded} timeout="auto" unmountOnExit>

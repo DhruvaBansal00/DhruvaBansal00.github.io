@@ -28,6 +28,7 @@ function Skills() {
                 justify="center"
                 // alignItems="flex-start"
                 //={12} sm={6} md={3}
+                // flexwrap="wrap"
             >
                 {Resume.skills.map(elem => (
                   <SkillItem index={Resume.skills.indexOf(elem)} name={elem.name} icon={elem.icon} use={elem.use} size={elem.size}/>
