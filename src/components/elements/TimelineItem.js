@@ -22,11 +22,10 @@ function TimelineItem(props) {
         {dates(props)}
         <h1 className="title is-4">{props.company}</h1>
         <p className="subtitle is-6">{props.position}</p>
-        {/* <div className="field is-grouped is-grouped-multiline is-grouped-right" style={{textAlign: "left"}}> */}
-        <div className={`field is-grouped ${props.expIndex % 2 == 0 ? "is-grouped-right" : "is-grouped-left"} is-grouped-multiline`}>
+        <div className={`field is-grouped ${props.expIndex % 2 == 0 && window.screen.width > 768 ? "is-grouped-right" : "is-grouped-left"} is-grouped-multiline`}>
           {props.badge.map((value, index) => {
             return (
-              <Badge key={index} text={value.name} faIcon={value.x_icon} />
+              <Badge key={index} text={value.name} faIcon={value.x_icon} leftTimeline={props.expIndex % 2 == 0}/>
             )
           })}
         </div>
