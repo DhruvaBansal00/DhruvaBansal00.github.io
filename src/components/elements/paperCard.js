@@ -135,6 +135,8 @@ import {
   Grid,
 } from "@material-ui/core";
 import { green, blue, purple } from "@material-ui/core/colors";
+import IconButton from '@material-ui/core/IconButton';
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -189,13 +191,6 @@ const PaperCard = ({ paper }) => {
   return (
     <Grid xs={12} sm={6} lg={3} className={classes.root}>
       <Card className={classes.card}>
-        <a
-        href={paper.html_url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={classes.tittle}
-        style={{ textDecoration: "none", color: "black" }}
-        >
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
@@ -212,13 +207,27 @@ const PaperCard = ({ paper }) => {
                 {" "}
             </Typography>
           }
+          action={
+            <IconButton aria-label="settings" style={{ color: "black" }}>
+              <a href={paper.pdf} download = {paper.name} style={{ color: "black" }}>
+                <GetAppIcon />
+              </a>
+            </IconButton>
+          }
         />
-        </a>
+        <a
+        href={paper.html_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={classes.tittle}
+        style={{ textDecoration: "none", color: "black" }}
+        >
         <CardMedia
             className={classes.media}
             image={paper.image}
             title={paper.name}
         />
+        </a>
         <a
         href={paper.html_url}
         target="_blank"
