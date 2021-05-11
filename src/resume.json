@@ -307,5 +307,42 @@
       "language": "JavaScript",
       "language2": "Python"
     }
+  ],
+  "researchArticles": [
+    {
+      "name": "Bachelor Thesis",
+      "html_url": "https://github.com/DhruvaBansal00/SBHMM-HTK",
+      "description": "Bachelor Thesis titled \"Leveraging 2D pose estimators for American Sign Language Recognition\"",
+      "image": "images/research/thesis.png",
+      "pdf": "pdf/BS_Thesis.pdf"
+    },
+    {
+      "name": "LINK",
+      "html_url": "https://roboticsconference.org/",
+      "description": "Learning Instance-Level N-Ary Semantic Knowledge At Scale For Robots Operating in Everyday Environments. In Proceedings of Robotics: Science and Systems 2021.",
+      "image": "images/research/link.png",
+      "pdf": "pdf/LINK.pdf"
+    },
+    {
+      "name": "CopyCat",
+      "html_url": "https://dl.acm.org/doi/10.1145/3411763.3451523",
+      "description": " CopyCat: Using Sign Language Recognition to Help Deaf Children Acquire Language Skills. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA '21).",
+      "image": "images/research/copycat.png",
+      "pdf": "pdf/CopyCat.pdf"
+    },
+    {
+      "name": "CoMOTO",
+      "html_url": "https://arxiv.org/abs/2006.03614",
+      "description": "Anticipatory Human-Robot Collaboration via Multi-Objective Trajectory Optimization. In Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "image": "images/research/CoMOTO.png",
+      "pdf": "pdf/CoMOTO.pdf"
+    },
+    {
+      "name": "Surface++",
+      "html_url": "https://dl.acm.org/doi/abs/10.1145/3307334.3328615",
+      "description": "Surface++: A Scalable and Self-sustainable Wireless Sound Sensing Surface (poster). In Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys '19).",
+      "image": "images/research/surface.png",
+      "pdf": "pdf/surface.pdf"
+    }
   ]
 }

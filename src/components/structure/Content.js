@@ -5,6 +5,7 @@ import Experience from "../sections/Experience";
 import Articles from "../sections/Articles";
 import Projects from "../sections/Projects";
 import GitHub from "../sections/GitHub";
+import Research from "../sections/Research";
 
 function Content() {
   return (
@@ -13,6 +14,7 @@ function Content() {
       <Experience />
       <Projects />
       <GitHub />
+      <Research />
       <Skills />
       {// <Articles />
   	}

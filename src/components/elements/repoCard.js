@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   card: {
     width: "100%",
+    height: "100%",
     marginLeft: "15px",
     marginRight: "15px",
     margin: "auto",
