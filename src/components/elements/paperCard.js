@@ -176,7 +176,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     color: theme.palette.getContrastText(purple[500]),
-    backgroundColor: green[400],
+    backgroundColor: blue[500],
   },
   dot: {
     height: "12px",
