@@ -27,7 +27,7 @@ html {
     .has-bg-image {
         background-image: url('../images/cover10blurred.webp'), url('../images/cover10.jpg');
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: initial;
         background-size: cover;
         background-position: center;
         /* opacity: 0.75; */
