@@ -32,7 +32,23 @@ html {
         background-position: center;
         /* opacity: 0.75; */
     }
+    .contactform {
+        width: "50";
+    }
 }
+
+#aboutMe .download .button {
+    margin-top: 6px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1;
+ }
+ #aboutMe .download .button:hover {
+    margin-top: 6px;
+    color: #363636;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1;
+ }
 
 .bulma-image {
     width: 200px;

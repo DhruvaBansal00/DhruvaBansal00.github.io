@@ -21,9 +21,15 @@ function AboutMe() {
             onError={(e)=>{e.target.onerror = null; e.target.src=Resume.basics.x_pictureFallback}}
           />
         </figure>
-        <p className="subtitle is-4 has-text-white has-text-weight-bold">
+        {/* <p className="subtitle is-4 has-text-white has-text-weight-bold">
           {Resume.basics.x_title}
+        </p> */}
+        <br></br>
+        <div className="columns download has-text-centered is-centered">
+        <p>
+          <a href="../../../public/pdf/ResumeBansal.pdf" className="button" download = "Resume">Download Resume &nbsp; <i className="fa fa-download">  </i> </a>
         </p>
+        </div>
         <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
           {Resume.basics.summary} If you would like to get in touch, please email me at <b>{Resume.basics.email}</b>.
         </p>
@@ -35,13 +41,7 @@ function AboutMe() {
               );
             })}
           </div>
-        </div>
-        <br></br>
-        <div className="columns download is-centered">
-          <p>
-              <a href="../../../public/pdf/ResumeBansal.pdf" className="button" download = "Resume"><i className="fa fa-download"></i>  Download Resume</a>
-          </p>
-        </div>
+        </div>        
       </div>
     </section>
   );

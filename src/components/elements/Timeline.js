@@ -6,7 +6,7 @@ import Resume from "../../resume.json";
 function Timeline() {
   let active = window.screen.width < 768;
   return (
-    <div className={`timeline ${active ? "is-left" : "is-centered"}`}>
+    <div className={`timeline ${active ? "is-left" : "is-centered"}`}>    
     <header className="timeline-header">
     <span className="tag is-medium is-dark">
       {new Date().getFullYear()}

@@ -41,8 +41,8 @@ class NavBar extends React.Component {
               <MenuItem text="About Me" href="#aboutMe" />
               <MenuItem text="Experience" href="#experience" />
               <MenuItem text="Projects" href="#projects" />
-              <MenuItem text="Skills" href="#skills" />
               <MenuItem text="Research Articles" href="#research" />
+              <MenuItem text="Skills" href="#skills" />
             { // <MenuItem text="Articles" href="#articles" />
             }
             </div>

@@ -5,7 +5,7 @@
     "picture": "images/pfp.webp",
     "x_pictureFallback": "images/pfp.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "I am a Computer Science student passionate about building intelligent products. Currently, I am interning at Amazon Robotics as a Software Development Engineer. I am also an incoming MS CS student at Stanford where I'll specialize in Artificial Intelligence. In the past, I have intered at Honeywell as a Software Engineer and conducted reserach with professors as an undergraduate student at Georgia Tech.",
+    "summary": "Hey there! I am a Computer Science student passionate about building intelligent products. Currently, I am interning at Amazon Robotics as a Software Development Engineer. I am also an incoming MS CS student at Stanford where I'll specialize in Artificial Intelligence. In the past, I have intered at Honeywell as a Software Engineer and conducted reserach with professors as an undergraduate student at Georgia Tech.",
     "location": {
       "country": "United States",
       "countryCode": "US",
@@ -49,12 +49,12 @@
     },
     {
       "company": "Amazon Robotics",
-      "position": "Software Engineering Intern",
+      "position": "Software Development Engineer Intern",
       "website": "https://www.linkedin.com/company/kiva-systems/",
       "startDate": "2021-05-23",
       "endDate": "AUGUST 2021",
       "image": "images/timeline/amazon.png",
-      "summary": "Incoming Software Engineering Intern. Deferred from Summer 2020 due to COVID-19.",
+      "summary": "Software Development Engineer (SDE) intern on the Perception and Human Interface (PHI) team. Deferred from Summer 2020 due to COVID-19.",
       "summary1": "",
       "summary2": "",
       "highlights": [],
