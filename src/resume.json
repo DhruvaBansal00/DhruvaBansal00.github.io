@@ -359,5 +359,35 @@
       "image": "images/research/surface.png",
       "pdf": "pdf/surface.pdf"
     }
+  ],
+  "Awards": [
+    {
+      "name": "CoC Awards'21",
+      "html_url": "https://gtcomputingawards2021.cc.gatech.edu/u/",
+      "description": "Outstanding Undergraduate Researcher awarded by Georgia Tech College of Computing (CoC).",
+      "image": "images/awards/gtcoc.jpg",
+      "date": "2021-04-05"
+    },
+    {
+      "name": "PURA",
+      "html_url": "https://undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards",
+      "description": "President's Undergraduate Research Award (PURA) for funding progress on the CopyCat project.",
+      "image": "images/awards/pura.png",
+      "date": "2020-12-13"
+    },
+    {
+      "name": "MobiSys'19",
+      "html_url": "https://www.sigmobile.org/mobisys/2019/posters/",
+      "description": "Best Poster Award for the Surface++ research project at MobiSys'19 conference.",
+      "image": "images/awards/mobisys.jpg",
+      "date": "2019-06-03"
+    },
+    {
+      "name": "HackGT 5",
+      "html_url": "https://devpost.com/software/mathdocs",
+      "description": "Best Accessibility Hack at HackGT 5 for the Isomathic project.",
+      "image": "images/awards/hackgt5.png",
+      "date": "2018-10-21"
+    }
   ]
 }

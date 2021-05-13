@@ -7,6 +7,7 @@ import Projects from "../sections/Projects";
 import GitHub from "../sections/GitHub";
 import Research from "../sections/Research";
 import Contact from "../sections/Contact";
+import Awards from "../sections/Awards"
 
 function Content() {
   return (
@@ -17,6 +18,7 @@ function Content() {
       <GitHub />
       <Research />
       <Skills />
+      <Awards />
       {/* <Contact /> */}
       {// <Articles />
   	}
