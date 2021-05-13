@@ -7,10 +7,11 @@ import particlesConfig from './particlesConfig';
 var ReactRotatingText = require('react-rotating-text');
 function Hero() {
   return (
-    <section className="hero is-dark is-fullheight" style={{ position: 'relative', overflow: "hidden", backgroundImage: "linear-gradient(to right, #e66465, #9198e5)" }}>
-      <div style={{ position: 'absolute'}}>
+    <section className="hero is-dark is-fullheight has-bg-image">
+      {/* style={{ position: 'relative', overflow: "hidden", backgroundImage: "linear-gradient(to right, #e66465, #9198e5)" }} */}
+      {/* <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfig} />
-      </div>
+      </div> */}
       <div className="hero-head">
         <NavBar />
       </div>
@@ -22,7 +23,7 @@ function Hero() {
           </h1>
           <h2 className="subtitle">
             based in {Resume.basics.location.region}{Resume.basics.location.country} <br></br>
-            Email: {Resume.basics.email}
+            <i>{Resume.basics.email}</i>
           </h2>
         </div>
       </div>
