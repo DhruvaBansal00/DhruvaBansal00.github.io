@@ -6,6 +6,7 @@ import Articles from "../sections/Articles";
 import Projects from "../sections/Projects";
 import GitHub from "../sections/GitHub";
 import Research from "../sections/Research";
+import Contact from "../sections/Contact";
 
 function Content() {
   return (
@@ -16,6 +17,7 @@ function Content() {
       <GitHub />
       <Research />
       <Skills />
+      {/* <Contact /> */}
       {// <Articles />
   	}
     </main>

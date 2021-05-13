@@ -65,7 +65,7 @@ function SkillItem(props) {
         />
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>{props.use}</Typography>
+            <p>{props.use}</p>
           </CardContent>
         </Collapse>
       </Card>

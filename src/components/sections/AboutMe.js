@@ -25,7 +25,7 @@ function AboutMe() {
           {Resume.basics.x_title}
         </p>
         <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
-          {Resume.basics.summary}
+          {Resume.basics.summary} If you would like to get in touch, please email me at <b>{Resume.basics.email}</b>.
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline is-grouped-centered has-text-centered">
@@ -35,6 +35,12 @@ function AboutMe() {
               );
             })}
           </div>
+        </div>
+        <br></br>
+        <div className="columns download is-centered">
+          <p>
+              <a href="../../../public/pdf/ResumeBansal.pdf" className="button" download = "Resume"><i className="fa fa-download"></i>  Download Resume</a>
+          </p>
         </div>
       </div>
     </section>

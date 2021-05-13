@@ -21,7 +21,8 @@ function Hero() {
             <ReactRotatingText typingInterval="60" items={Resume.basics.label} />
           </h1>
           <h2 className="subtitle">
-            based in {Resume.basics.location.region}{Resume.basics.location.country}
+            based in {Resume.basics.location.region}{Resume.basics.location.country} <br></br>
+            Email: {Resume.basics.email}
           </h2>
         </div>
       </div>

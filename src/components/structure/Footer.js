@@ -1,13 +1,15 @@
 import React from "react";
+import Particles from 'react-particles-js';
+import particlesConfig from '../elements/particlesConfig';
 
 function Footer() {
   return (
-    <footer className="footer has-background-link">
+    <footer className="footer" style={{ position: 'relative', overflow: "hidden", backgroundImage: "linear-gradient(to right, #e66465, #9198e5)" }}>
       <div className="content has-text-centered has-text-white">
         <p>
           Built at <i className="fas fa-moon"></i> by{" "}
-          <a href="https://github.com/jcoelho93" className="has-text-white">
-            <strong>José Coelho</strong>
+          <a href="https://github.com/DhruvaBansal00" className="has-text-white">
+            <strong>Dhruva Bansal</strong>
           </a>
         </p>
         <p>
