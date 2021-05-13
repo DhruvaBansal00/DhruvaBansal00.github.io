@@ -63,11 +63,11 @@ function SkillItem(props) {
             <p>{props.name}</p>
           }
         />
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
+        {/* <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <p>{props.use}</p>
           </CardContent>
-        </Collapse>
+        </Collapse> */}
       </Card>
     </Grid>
   );
