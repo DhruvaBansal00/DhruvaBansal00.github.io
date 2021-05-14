@@ -362,30 +362,37 @@
   ],
   "Awards": [
     {
+      "name": "CHI'21",
+      "html_url": "https://src.acm.org/",
+      "description": "[May 2021] First place at the CHI 2021 Student Research Competition (Undergraduate division)",
+      "image": "images/awards/chi.png",
+      "date": "2021-05-05"
+    },
+    {
       "name": "CoC Awards'21",
       "html_url": "https://gtcomputingawards2021.cc.gatech.edu/u/",
-      "description": "Outstanding Undergraduate Researcher awarded by Georgia Tech College of Computing (CoC).",
+      "description": "[April 2021] Outstanding Undergraduate Researcher awarded by Georgia Tech College of Computing (CoC).",
       "image": "images/awards/gtcoc.jpg",
       "date": "2021-04-05"
     },
     {
       "name": "PURA",
       "html_url": "https://undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards",
-      "description": "President's Undergraduate Research Award (PURA) for funding progress on the CopyCat project.",
+      "description": "[Dec 2020] President's Undergraduate Research Award (PURA) for funding progress on the CopyCat project.",
       "image": "images/awards/pura.png",
       "date": "2020-12-13"
     },
     {
       "name": "MobiSys'19",
       "html_url": "https://www.sigmobile.org/mobisys/2019/posters/",
-      "description": "Best Poster Award for the Surface++ research project at MobiSys'19 conference.",
+      "description": "[June 2019] Best Poster Award for the Surface++ research project at MobiSys'19 conference.",
       "image": "images/awards/mobisys.jpg",
       "date": "2019-06-03"
     },
     {
       "name": "HackGT 5",
       "html_url": "https://devpost.com/software/mathdocs",
-      "description": "Best Accessibility Hack at HackGT 5 for the Isomathic project.",
+      "description": "[Oct 2018] Best Accessibility Hack at HackGT 5 for the Isomathic project.",
       "image": "images/awards/hackgt5.png",
       "date": "2018-10-21"
     }
