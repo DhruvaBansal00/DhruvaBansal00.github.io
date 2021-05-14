@@ -11,7 +11,7 @@ html {
 
 @media (max-width: 768px) {
     .has-bg-image {
-        background-image: url('../images/cover10blurred.webp'), url('../images/cover10.jpg');
+        background-image: url('../images/cover10blurred.webp'), url('../images/cover10blurred.jpg');
         background-repeat: no-repeat;
         background-attachment: initial;
         background-size: cover;
@@ -25,16 +25,21 @@ html {
 }
 @media (min-width: 768px) {
     .has-bg-image {
-        background-image: url('../images/cover10blurred.webp'), url('../images/cover10.jpg');
+        background-image: url('../images/cover10blurred.webp'), url('../images/cover10blurred.jpg');
         background-repeat: no-repeat;
         background-attachment: initial;
         background-size: cover;
         background-position: center;
         /* opacity: 0.75; */
     }
-    .contactform {
-        width: "50";
-    }
+}
+
+.has-bg-gt {
+    background-image: url('../images/coverGT.jpg');
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    background-position: center;   
 }
 
 #aboutMe .download .button {
@@ -86,52 +91,7 @@ html {
     }
   }
 
-.carousel-image {
-    position: relative;
-    padding: 1.1em;
-    border-radius: 5%;
-    opacity: 0.5;
+#contact .button:hover {
+    color: "white";
+    background-color: "blue";
 }
-
-.slick-slide.slick-center img {
-    opacity: 1;
-    transform: scale(1.1);
-    z-index: 5;
-}
-
-.slick-prev {
-    position: absolute;
-    left: 5%;
-    z-index: 1;
-  }
-.slick-next {
-    position: absolute;
-    right: 5%;
-    z-index: 1;
-}
-
-.carousel-wrapper {
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-main {
-    top: 0.75em;
-    margin: auto;
-}
-
-@media only screen and (max-width: 1024px) {
-    .carousel-image {
-        padding: 0.75em;
-    }
- }
-
- @media only screen and (max-width: 600px) {
-    .carousel-image {
-        padding: 0.40em;
-    }
-    .carousel-main {
-        width: 100%;
-        height: 100%;
-    }
- }

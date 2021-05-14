@@ -5,6 +5,7 @@
     "picture": "images/pfp.webp",
     "x_pictureFallback": "images/pfp.jpg",
     "x_title": "Hey There! Glad you're here",
+    "resume": "pdf/ResumeBansal.pdf",
     "summary": "Hey there! I am a Computer Science student passionate about building intelligent products. Currently, I am interning at Amazon Robotics as a Software Development Engineer. I am also an incoming MS CS student at Stanford where I'll specialize in Artificial Intelligence. In the past, I have intered at Honeywell as a Software Engineer and conducted reserach with professors as an undergraduate student at Georgia Tech.",
     "location": {
       "country": "United States",
@@ -13,6 +14,12 @@
     },
     "email": "bdhruva [at] stanford [dot] edu",
     "profiles": [
+      {
+        "network": "Email",
+        "username": "bdhruva",
+        "url": "mailto:bdhruva@stanford.edu",
+        "x_icon": "fas fa-2x fa-envelope"
+      },
       {
         "network": "LinkedIn",
         "username": "dhruvabansal2k",
@@ -145,7 +152,7 @@
       "name": "Java",
       "level": "Advanced",
       "size": 2,
-      "icon": "images/skills/java.webp",
+      "icon": "images/skills/java.jpg",
       "use": ""
     },
     {

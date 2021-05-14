@@ -27,11 +27,11 @@ function AboutMe() {
         <br></br>
         <div className="columns download has-text-centered is-centered">
         <p>
-          <a href="../../../public/pdf/ResumeBansal.pdf" className="button" download = "Resume">Download Resume &nbsp; <i className="fa fa-download">  </i> </a>
+          <a href={Resume.basics.resume} className="button" download = "Resume">Download Resume &nbsp; <i className="fa fa-download">  </i> </a>
         </p>
         </div>
         <p className="subtitle is-5 has-text-white has-text-weight-light summary-text">
-          {Resume.basics.summary} If you would like to get in touch, please email me at <b>{Resume.basics.email}</b>.
+          {Resume.basics.summary}
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline is-grouped-centered has-text-centered">
