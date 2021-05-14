@@ -11,7 +11,7 @@ html {
 
 @media (max-width: 768px) {
     .has-bg-image {
-        background-image: url('../images/cover10blurred.webp'), url('../images/cover10.jpg');
+        background-image: url('../images/cover10blurred.webp'), url('../images/cover10blurred.jpg');
         background-repeat: no-repeat;
         background-attachment: initial;
         background-size: cover;
@@ -25,7 +25,7 @@ html {
 }
 @media (min-width: 768px) {
     .has-bg-image {
-        background-image: url('../images/cover10blurred.webp'), url('../images/cover10.jpg');
+        background-image: url('../images/cover10blurred.webp'), url('../images/cover10blurred.jpg');
         background-repeat: no-repeat;
         background-attachment: initial;
         background-size: cover;
