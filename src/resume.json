@@ -6,7 +6,7 @@
     "x_pictureFallback": "images/pfp.jpg",
     "x_title": "Hey There! Glad you're here",
     "resume": "pdf/ResumeBansal.pdf",
-    "summary": "Hey there! I am a Computer Science student passionate about building intelligent products. Currently, I am interning at Amazon Robotics as a Software Development Engineer. I am also an incoming MS CS student at Stanford where I'll specialize in Artificial Intelligence. In the past, I have intered at Honeywell as a Software Engineer and conducted reserach with professors as an undergraduate student at Georgia Tech.",
+    "summary": "Hey there, my name is Dhruva Bansal. Currently, I am interning at Amazon Robotics as a Software Development Engineer on the Perception and Human Interface (PHI) team. This September, I will be entering Stanford University as an MS CS student concentrating in Artificial Intelligence. In the past, I have interned at Honeywell as a Software Engineer and conducted reserach with professors as an undergraduate student at Georgia Tech.",
     "location": {
       "country": "United States",
       "countryCode": "US",
@@ -370,7 +370,7 @@
   "Awards": [
     {
       "name": "CHI'21",
-      "html_url": "https://src.acm.org/",
+      "html_url": "https://chi2021.acm.org/for-attendees/highlights/awards",
       "description": "[May 2021] First place at the CHI 2021 Student Research Competition (Undergraduate division)",
       "image": "images/awards/chi.png",
       "date": "2021-05-05"
