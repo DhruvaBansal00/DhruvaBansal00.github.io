@@ -59,12 +59,12 @@
       "position": "Software Development Engineer Intern",
       "website": "https://www.linkedin.com/company/kiva-systems/",
       "startDate": "2021-05-23",
-      "endDate": "AUGUST 2021",
+      "endDate": "AUG 2021",
       "image": "images/timeline/amazon.png",
-      "summary": "Software Development Engineer (SDE) intern on the Perception and Human Interface (PHI) team. Deferred from Summer 2020 due to COVID-19.",
-      "summary1": "",
-      "summary2": "",
-      "highlights": [],
+      "summary": "Owned a service that leveraged state-of-the-art computer vision to automate configuration of station used by associates to interact with robots.",
+      "summary1": "Trained ResNet-34 and Darknet-53 models on 50+ warehouses to compute unknown parameters and enable automation. Employed evaluation metrics such as IoU to verify the service’s 99.95% accuracy in computing parameters on the test set.",
+      "summary2": "Architected and containerized production-ready training and inference pipelines using Python, PyTorch, and Docker. Deployed inference pipelines to AWS using a Flask-based webserver, SageMaker, EC2, Lambda, S3, DynamoDB, and SNS. Expedited warehouse operations, reduced associate workload, and eliminated dependencies without sacrificing accuracy.",
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "Docker", "x_icon": "fab fa-docker"}, {"name": "SageMaker", "x_icon": "fab fa-aws"}, {"name": "DynamoDB", "x_icon": "fas fa-database"}, {"name": "Lambda", "x_icon": "fab fa-aws"}, {"name": "S3", "x_icon": "fas fa-box-open"}, {"name": "Bash", "x_icon": "fas fa-terminal"}],
       "index": 5
     },
     {
