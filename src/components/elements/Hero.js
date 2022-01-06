@@ -1,8 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Resume from "../../resume.json";
-import Particles from 'react-particles-js';
-import particlesConfig from './particlesConfig';
 
 var ReactRotatingText = require('react-rotating-text');
 function Hero() {

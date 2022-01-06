@@ -1,15 +1,12 @@
 import React from "react";
 import Badge from "../elements/Badge";
 import Resume from "../../resume.json";
-import Particles from 'react-particles-js';
-import particlesConfig from '../elements/particlesConfig';
-
 function AboutMe() {
   return (
     <section className="section" id="aboutMe" style={{ backgroundImage: "linear-gradient(to right, #e66465, #9198e5)"}}>
-      <div style={{ position: 'absolute'}}>
+      {/* <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfig} />
-      </div>
+      </div> */}
       <div className="container has-text-centered">
         <figure className="image container is-180x180">
           <img

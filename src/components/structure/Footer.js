@@ -1,6 +1,4 @@
 import React from "react";
-import Particles from 'react-particles-js';
-import particlesConfig from '../elements/particlesConfig';
 
 function Footer() {
   return (

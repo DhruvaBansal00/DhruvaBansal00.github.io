@@ -5,18 +5,15 @@
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
-    "3d-react-carousal": "^3.1.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-github-calendar": "^2.0.2",
-    "react-horizontal-timeline": "^1.4.0",
+    "3d-react-carousal": "^4.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-github-calendar": "^3.2.2",
     "react-multi-carousel": "^2.6.2",
-    "react-particles-js": "^3.4.1",
-    "react-reveal": "^1.2.2",
     "react-rotating-text": "^1.4.1",
     "react-scripts": "^5.0.0",
     "react-slick": "^0.28.1",
-    "react-tooltip": "^4.2.19"
+    "react-tooltip": "^4.2.21"
   },
   "scripts": {
     "start": "react-scripts start",
