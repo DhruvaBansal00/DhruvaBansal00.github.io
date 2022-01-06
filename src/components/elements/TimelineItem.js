@@ -1,6 +1,7 @@
 import React from "react";
 import Badge from "../elements/Badge";
 import TimelineContent from "./TimelineContent";
+import Resume from "../../resume.json";
 
 function dates(props) {
   if (props.endDate === 'None') {
@@ -22,10 +23,10 @@ function TimelineItem(props) {
         {dates(props)}
         <h1 className="title is-4">{props.company}</h1>
         <p className="subtitle is-6">{props.position}</p>
-        <div className={`field is-grouped ${props.expIndex % 2 == 0 && window.screen.width > 768 ? "is-grouped-right" : "is-grouped-left"} is-grouped-multiline`}>
+        <div className={`field is-grouped ${props.expIndex % 2 != Resume.work.length % 2 && window.screen.width > 768 ? "is-grouped-right" : "is-grouped-left"} is-grouped-multiline`}>
           {props.badge.map((value, index) => {
             return (
-              <Badge key={index} text={value.name} faIcon={value.x_icon} leftTimeline={props.expIndex % 2 == 0 && window.screen.width > 768}/>
+              <Badge key={index} text={value.name} faIcon={value.x_icon} leftTimeline={props.expIndex % 2 != Resume.work.length % 2 && window.screen.width > 768}/>
             )
           })}
         </div>
