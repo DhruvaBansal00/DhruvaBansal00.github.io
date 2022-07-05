@@ -6,7 +6,7 @@
     "x_pictureFallback": "images/pfp.jpg",
     "x_title": "Hey There! Glad you're here",
     "resume": "pdf/ResumeBansal.pdf",
-    "summary": "Hey there! I am Dhruva Bansal (pronounced Dhruv) and I am an MS CS student at Stanford University, specializing in Artificial Intelligence. As a Research Assistant at the Stanford Vision Lab, I am exploring novel Reinforcement Learning algorithms for Robotics applications. In the past, I have worked on exciting problems at Amazon Robotics and Honeywell as a Software Engineering Intern. Feel free to reach out if you like what you see, are working on interesting projects, or just wanna say hi!",    
+    "summary": "Hey there! I am Dhruva Bansal (pronounced Dhruv) and I am an MS CS student at Stanford University, specializing in Artificial Intelligence. As a Research Engineering Intern at DeepMind Google, I am working along the intersection of ML research and products that touch millions of people around the globe. In the past, I have worked on exciting problems at Amazon Robotics and Honeywell as a Software Engineering Intern. Feel free to reach out if you like what you see, are working on interesting projects, or just wanna say hi!",    
     "location": {
       "country": "United States",
       "countryCode": "US",
@@ -42,6 +42,19 @@
   },
   "work": [
     {
+      "company": "DeepMind Google",
+      "position": "Research Engineering Intern",
+      "website": "https://www.deepmind.com/",
+      "startDate": "2022-06-27",
+      "endDate": "None",
+      "image": "images/timeline/deepmind.png",
+      "summary": "Integrating DeepMind’s state-of-the-art research in Natural language and Meta learning into innovative products at Google.",
+      "summary1": "",
+      "summary2": "",
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "Tensorflow", "x_icon": "fas fa-code"}],
+      "index": 7
+    },
+    {
       "company": "Stanford Vision and Learning Lab",
       "position": "Graduate Researcher",
       "website": "http://svl.stanford.edu/",
@@ -50,7 +63,7 @@
       "image": "images/timeline/svl.png",
       "summary": "Colaborating with Prof. Fei-Fei Li, Prof. Jiajun Wu, and Dr. Ruohan Zhang on novel Reinforcement Learning algorithms for Robotic applications.",
       "summary1": "Exploring how human feedback may be used alongside environment reward to train agents for sparse reward, long horizon tasks. Integrating Soft Actor-Critic with TAMER to leverage human feedback and learn in continuous environments.",
-      "summary2": "",
+      "summary2": "Formalized and implemented a novel Bandit-based RL algorithm in PyTorch to learn tasks using human feedback at 10x sample efficiency. Paper in review at Corl 2022.",
       "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "Gym", "x_icon": "fas fa-code"}, {"name": "OpenCV", "x_icon": "fas fa-code"}],
       "index": 7
     },
@@ -169,6 +182,13 @@
       "use": ""
     },
     {
+      "name": "TensorFlow",
+      "level": "Advanced",
+      "size": 3,
+      "icon": "images/skills/tensorflow.png",
+      "use": ""
+    },
+    {
       "name": "C++",
       "level": "Advanced",
       "size": 2,
@@ -201,13 +221,6 @@
       "level": "Advanced",
       "size": 2,
       "icon": "images/skills/csharp.png",
-      "use": ""
-    },
-    {
-      "name": "TensorFlow",
-      "level": "Advanced",
-      "size": 3,
-      "icon": "images/skills/tensorflow.png",
       "use": ""
     },
     {
