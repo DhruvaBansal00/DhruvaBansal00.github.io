@@ -42,17 +42,30 @@
   },
   "work": [
     {
+      "company": "Refuel AI",
+      "position": "Founding ML Engineer",
+      "website": "https://www.refuel.ai/",
+      "startDate": "2022-09-26",
+      "endDate": "None",
+      "image": "images/timeline/refuel.png",
+      "summary": "Seed-stage startup backed by General Catalyst and XYZ ventures. Buildling the modern way to deploy accurate, reliable AI models to production",
+      "summary1": "Led the development of Refuel-LLM - purpose-built LLMs for data enrichment tasks and outperform all state-of-the-art LLMs on data enrichment benchmarks.",
+      "summary2": "Architected production-ready pipelines for training and deploying Refuel-LLM at scale. Supporting over 10M+ requests per month.",
+      "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "PyTorch", "x_icon": "fas fa-code"}, {"name": "Docker", "x_icon": "fab fa-docker"}, {"name": "Flask", "x_icon": "fas fa-code"}, {"name": "DynamoDB", "x_icon": "fas fa-database"}, {"name": "Lambda", "x_icon": "fab fa-aws"}, {"name": "PostgreSQL", "x_icon": "fas fa-database"}, {"name": "S3", "x_icon": "fas fa-box-open"}, {"name": "Bash", "x_icon": "fas fa-terminal"}],
+      "index": 9
+    },
+    {
       "company": "DeepMind Google",
       "position": "Research Engineering Intern",
       "website": "https://www.deepmind.com/",
       "startDate": "2022-06-27",
       "endDate": "None",
       "image": "images/timeline/deepmind.png",
-      "summary": "Integrating DeepMind’s state-of-the-art research in Natural language and Meta learning into innovative products at Google.",
-      "summary1": "",
-      "summary2": "",
+      "summary": "Integrated DeepMind’s state-of-the-art research in Natural language and Meta-learning into Google Cloud’s offerings.",
+      "summary1": "Implemented novel Meta-learning algorithms built upon Prototypical Networks to learn across long-tailed data distributions. Improved upon F1 scores of internal algorithms and baselines by 32% on Named-Entity Recognition for scanned documents.",
+      "summary2": "Architected distributed training and inference pipelines to run on multi-host TPU systems with low latency and repeatability.",
       "highlights": [{"name": "Python", "x_icon": "fab fa-python"}, {"name": "Tensorflow", "x_icon": "fas fa-code"}],
-      "index": 7
+      "index": 8
     },
     {
       "company": "Stanford Vision and Learning Lab",
